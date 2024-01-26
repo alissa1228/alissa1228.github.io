@@ -14,13 +14,13 @@ categories: jekyll update
 
 ---
 
-
+<br/>
 
 모바일 앱을 만드는 방법은 개발 방법과 내부 기능에 따라 다양한 유형으로 나뉜다. 
 
 <br/>
 
-### 웹 앱(Web App)
+### # 웹 앱(Web App)
 
 '웹 앱'은 **데스크탑 또는 모바일 기기의 브라우저에서 사용할 수 있는 웹 기술 기반의 앱**을 말한다. 앱과 동일한 기능을 구현되어 네이티브 앱처럼 보이지만 HTML, CSS, JavaScript 등을 활용해 만들어져 인터넷 브라우저를 통해 제공된다. 사용자가 브라우저에서 직접 접근할 수 있기 때문에 사용자의 기기에 따로 설치할 필요가 없다.
 
@@ -47,14 +47,14 @@ A. **실행방식의 차이.** 모바일 웹은 화면 일부분이 변경될 �
 <br/>
 <br/>
 
->*[AJAX (Asynchronous JavaScript and XML)](https://developer.mozilla.org/ko/docs/Glossary/AJAX)
+>[AJAX (Asynchronous JavaScript and XML)](https://developer.mozilla.org/ko/docs/Glossary/AJAX)
 : XHR(XMLHttpRequest)을 사용해 동적인 웹페이지를 구성하는 프로그래밍 방식. 웹 페이지 전체를 다시 가져오지 않고, 웹 페이지 일부만 갱신할 수 있다. 
 
 
 <br/>
 <br/>
 
-### 네이티브 앱(Native App)
+### # 네이티브 앱(Native App)
 
 **모바일 기기에 최적화된 네이티브 언어로 개발되어 기기에 다운로드 및 설치할 수 있는 앱**을 말한다. 모바일 운영체제에 따라 언어가 다르기 때문에, 특정 플랫폼이나 기기 유형에 맞춰 개발자가 앱 기능을 작성하고 설계해야한다. (IOS - Swift / Objective-C, Android- Kotlin / Java)
 
@@ -83,7 +83,7 @@ A. **실행방식의 차이.** 모바일 웹은 화면 일부분이 변경될 �
 <br/>
 <br/>
 
-### 하이브리드 앱(Hybrid APP)
+### # 하이브리드 앱(Hybrid APP)
 
 네이티브 앱과 마찬가지로 사용자가 앱 스토어에서 하이브리드 앱을 다운로드하고 설치할 수 있다. 단, 네이티브 앱과 하이브리드 앱의 내부 구조는 아주 다르다. 하이브리드 앱은 내부로 보자면 웹 앱에 더 가깝다. (네이티브 앱과 웹 앱의 중간에 해당한다.)
 
@@ -113,7 +113,7 @@ A. **실행방식의 차이.** 모바일 웹은 화면 일부분이 변경될 �
 <br/>
 <br/>
 
-### 프로그레시브 웹 앱(Progressive Web App, PWA)
+### # 프로그레시브 웹 앱(Progressive Web App, PWA)
 
 브라우저 기술 발전으로 탄생한 결과물. **모바일 기기에서 네이티브 앱과 같은 사용자 경험을 제공하는 웹 앱이다.**  최신 브라우저의 경우 웹 앱 자체에서 네이티브 앱과 같은 경험을 사용자에게 제공할 수 있다. 
 
@@ -153,7 +153,7 @@ A. **실행방식의 차이.** 모바일 웹은 화면 일부분이 변경될 �
 <br/>
 <br/>
 
-### 크로스 플랫폼 앱(Cross Platoform Application)
+### # 크로스 플랫폼 앱(Cross Platoform Application)
 
 
 크로스 플랫폼 앱은 한 가지 개발 언어와 프레임워크로 안드로이드, iOS 네이티브 앱을 만드는 개발방식이다. 네이티브 코드가 아닌 다른 개발 언어로 코드를 작성한 후 각각 OS가 이해할 수 있는 코드로 컴파일 한 후, 각각의 OS 엔진으로 실행하는 방식이다. 대표적인 프레임워크는 Flutter(구글), React Native(페이스북), Xamarin(마이크로소프트) 등이 있다. 모바일 앱 개발에 초점을 맞춰 하나의 코드로 여러 모바일 운영체제에서 작동할 수 있는 앱 생성을 목표로 한다.
@@ -177,13 +177,13 @@ A. **실행방식의 차이.** 모바일 웹은 화면 일부분이 변경될 �
 
 
 **📌 참고**
-- https://aws.amazon.com/ko/compare/the-difference-between-web-apps-native-apps-and-hybrid-apps/
-- https://blog.hectodata.co.kr/app_kinds/
-- https://brunch.co.kr/@rlatjrwn9086/61
-- https://www.inflearn.com/pages/infmation-49-20220607
-- https://velog.io/@openhub/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%95%B1Native-App-vs-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%95%B1Hybrid-App-vs-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1PWA-%EC%A0%95%EC%9D%98%EC%99%80-%EC%9E%A5%EB%8B%A8%EC%A0%90
-- https://velog.io/@1nthek/%EC%95%B1%EC%9D%98-%EC%A2%85%EB%A5%98-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%95%B1-vs-%ED%81%AC%EB%A1%9C%EC%8A%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%95%B1-vs-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%95%B1
-- https://yozm.wishket.com/magazine/detail/1969/
+- [https://aws.amazon.com/ko/compare/the-difference-between-web-apps-native-apps-and-hybrid-apps/](https://aws.amazon.com/ko/compare/the-difference-between-web-apps-native-apps-and-hybrid-apps/)
+- [https://blog.hectodata.co.kr/app_kinds/](https://blog.hectodata.co.kr/app_kinds/)
+- [https://brunch.co.kr/@rlatjrwn9086/61](https://brunch.co.kr/@rlatjrwn9086/61)
+- [https://www.inflearn.com/pages/infmation-49-20220607](https://www.inflearn.com/pages/infmation-49-20220607)
+- [@openhub 님의 velog](https://velog.io/@openhub/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%95%B1Native-App-vs-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%95%B1Hybrid-App-vs-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1PWA-%EC%A0%95%EC%9D%98%EC%99%80-%EC%9E%A5%EB%8B%A8%EC%A0%90)
+- [@1nthek 님의 velog](https://velog.io/@1nthek/%EC%95%B1%EC%9D%98-%EC%A2%85%EB%A5%98-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%95%B1-vs-%ED%81%AC%EB%A1%9C%EC%8A%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%95%B1-vs-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%95%B1)
+- [https://yozm.wishket.com/magazine/detail/1969/](https://yozm.wishket.com/magazine/detail/1969/)
 
 <br/>
 <br/>
